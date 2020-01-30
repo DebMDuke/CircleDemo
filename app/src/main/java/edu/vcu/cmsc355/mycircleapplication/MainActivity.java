@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
          EditText radiusInput = findViewById(R.id.editTextRadius);
          TextView output = findViewById(R.id.textViewResult);
          DecimalFormat FORMAT = new DecimalFormat("#.##");
-         
+
          double  radius = Double.parseDouble(radiusInput.getText().toString());
 
         // calculate results
